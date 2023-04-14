@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Insect Catch Game 50</title>
+</head>
+
+<body>
+  <div class="screen">
+    <h1>Catch The Insect</h1>
+    <buton class="btn" id="start-btn">Play Game</buton>
+  </div>
+
+  <div class="screen">
+    <h1>What is your "favorite" insect?</h1>
+    <ul class="insects-list">
+      <li>
+        <button class="choose-insect-btn">
+          <p>Fly</p>
+          <img src="http://pngimg.com/uploads/fly/fly_PNG3946.png" alt="fly">
+        </button>
+      </li>
+      <li>
+        <button class="choose-insect-btn">
+          <p>Yellow Bug</p>
+          <img src="https://pngimg.com/uploads/bug/bug_PNG4004.png" alt="yellow bug">
+        </button>
+      </li>
+      <li>
+        <button class="choose-insect-btn">
+          <p>Green Bug</p>
+          <img src="https://pngimg.com/uploads/bug/bug_PNG3992.png" alt="green bug">
+        </button>
+      </li>
+      <li>
+        <button class="choose-insect-btn">
+          <p>Ladybug</p>
+          <img src="./images/pngwing.com.png" alt="ladybug">
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="screen game-container" id="game-container">
+    <h3 id="time">Time: 00:00</h3>
+    <button class="reload btn" onclick="location.reload()">Retry</button>
+    <h3 id="score">Score: 0</h3>
+    <h5 id="message" class="message">
+      Are you annoyed yet? <br>
+      You are playing an impossible game!!
+    </h5>
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
